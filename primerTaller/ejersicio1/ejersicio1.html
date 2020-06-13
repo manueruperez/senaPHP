@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="../../index.html"><h1><-Regresar</h1></a>
+    <h2>Ejersicio1</h2>
+    <p>
+        Realizar un script que permita calcular la nota definitiva de un estudiante
+        solicitando los siguientes datos: Nombres completos, asignatura, parcial1,
+        parcial2, parcial final, las 2 primeras notas valen cada una 30% y parcial final
+        40%; se debe dar la respuesta cuantitativamente (ej. Su nota final es 3,5) y
+        cualitativamente (si nota definitiva es mayor a 3.5 el estudiante aprobó la
+        asignatura, de lo contrario reprobó la asignatura)
+    </p>
+    <h2>Datos personales:</h2>
+    <form class="" action="ejersicio1.php" method="post"><br>
+    
+    <label for="">
+        Nombres completos <br>
+        <input type="text" name="txt_nombre" value=""><br>
+    </label>
+    <br>
+    <label for=""> 
+        Asignatura <br> 
+        <input type="text" name="txt_asignatura" value=""><br>
+    </label>
+    <br>
+    <h2>notas:</h2>
+    <label for=""> 
+        primer parcial <br> 
+        <input type="text" name="txt_nota1" value=""><br>
+    </label>
+    <br>
+    <label for="">
+        segundo parcial<br>
+        <input type="text" name="txt_nota2" value=""><br>
+    </label>
+    <br>
+    <label for="">
+        parcial final <br>
+        <input type="text" name="txt_nota3" value=""><br>
+    </label>
+    <br>
+    <input type="submit" name="btn_calcular" value="calcular">
+    </form>
+  </body>
+</html>
