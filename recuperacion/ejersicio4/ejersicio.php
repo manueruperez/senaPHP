@@ -12,14 +12,8 @@
   <hr>
     <?php
         $nombres= $_REQUEST["nombres"];
-        $fechaActual = date('y-m-d');
-        $fechaUsuario= $_REQUEST["fecha"];
-        $diff = abs(strtotime($fechaActual) - strtotime($fechaUsuario));
-        $years = floor($diff / (365*60*60*24));
-        $nota1= $_REQUEST["nota1"];
-        $nota2= $_REQUEST["nota2"];
-        $nota3 = $_REQUEST["nota3"];
-        $definitiva = ($nota1 + $nota2 +$nota3)/3;
+        $valor= $_REQUEST["valor"];
+        $tiempo = $_REQUEST["tiempo"];
     echo "<p>{$nombres} tienes {$years} años tu nota definitiva es : <br>{$definitiva}</p>";
     ?>
     <hr>
